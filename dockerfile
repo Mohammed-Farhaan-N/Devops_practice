@@ -9,8 +9,6 @@ RUN npm install
 
 FROM petto as prod 
 
-COPY  --from=petto /Pettogram .
-
 CMD ["npm" ,"run" ,"dev"] 
 
 EXPOSE 3000
