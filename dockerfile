@@ -13,4 +13,4 @@ COPY  --from=petto /Pettogram .
 
 CMD ["npm" ,"run" ,"dev"] 
 
-EXPOSE 3000
+EXPOSE 4000
