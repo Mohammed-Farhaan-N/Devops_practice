@@ -4,3 +4,8 @@ services:
     image: nginx:latest
     ports:
       - "80:80"
+    volumes:
+      - myapp:/usr/share/nginx/html
+
+volumes:
+  myapp:
